@@ -1,9 +1,8 @@
-source 'https://rubygems.org'
-
+#source 'https://rubygems.org'
+source 'http://ruby.taobao.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 
-ruby '2.1.1'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
@@ -34,6 +33,14 @@ end
 group :development do
   gem 'binding_of_caller'
   gem 'better_errors'
+
+  gem 'capistrano'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem 'capistrano-rails-console'
+  gem 'capistrano-rvm', '~> 0.1.1'
+  gem 'rvm-capistrano', require: false
+  gem 'capistrano-cookbook', require: false
 end
 
 group :development, :test do
@@ -55,6 +62,7 @@ gem 'rails_12factor', group: :production
 gem 'font-awesome-rails'
 gem 'backbone-on-rails'
 gem 'faker'
+gem 'nio4r', '!=1.0.0'
 
 # Use unicorn as the app server
 # gem 'unicorn'
@@ -64,3 +72,8 @@ gem 'faker'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+group :production do
+  gem 'unicorn'
+end
+
