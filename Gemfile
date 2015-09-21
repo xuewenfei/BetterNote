@@ -73,7 +73,7 @@ gem 'nio4r', '!=1.0.0'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+gem 'net-ssh', '!= 2.10.0'
 group :production do
   gem 'unicorn'
 end
