@@ -268,7 +268,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   launchy
-  mysql2 (= 0.3.10)
+  mysql2
   nio4r (!= 1.0.0)
   pg_search
   rails (= 4.0.4)
