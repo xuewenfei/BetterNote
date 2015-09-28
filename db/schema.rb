@@ -13,9 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20140422212639) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "comments", force: true do |t|
     t.integer  "note_id",    null: false
     t.integer  "author_id",  null: false
@@ -105,7 +102,7 @@ ActiveRecord::Schema.define(version: 20140422212639) do
   add_index "notifications", ["user_id"], name: "index_notifications_on_user_id", using: :btree
 
   create_table "tags", force: true do |t|
-    t.text     "name",       null: false
+    t.string   "name",       null: false
     t.integer  "owner_id",   null: false
     t.datetime "created_at"
     t.datetime "updated_at"
