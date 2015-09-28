@@ -2,14 +2,14 @@
   <div class="sidebar-header group">
     <div class="sidebar-header-left">
       <i class="fa fa-caret-down"></i>&nbsp;
-      Notebooks
+      笔记本
     </div>
     <div class="sidebar-header-right">
       <i class="fa fa-toggle-down"></i>
       <ul class="options-dropdown">
         <li>
           <a href="#" class="group">
-            New Notebook...
+            新建笔记本...
           </a>
         </li>
       </ul>
@@ -21,7 +21,7 @@
       <div class="sidebar-entry-left">
         <a href="/#/notes" class="group">
             <i class='fa fa-book fa-lg'></i>&nbsp;
-            All Notes (<%= notes.length %>)
+            所有笔记 (<%= notes.length %>)
         </a>
       </div>
     </li>
@@ -38,12 +38,12 @@
           <ul class="options-dropdown">
             <li>
               <a href="#" class="edit-notebook" id="<%= notebook.get("id") %>">
-                Rename...
+                重命名...
               </a>
             </li>
             <li>
               <a href="#" class="delete-notebook" id="<%= notebook.get("id") %>">
-                Delete Notebook
+                删除笔记本
               </a>
             </li>
           </ul>

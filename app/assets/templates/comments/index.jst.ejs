@@ -2,13 +2,13 @@
   <div class="note-show-header-left">
     <i class="fa fa-caret-down"></i>&nbsp;
     <i class="fa fa-comments"></i>
-    Comments
+    注释
   </div>
 </header>
 <div class="comments-content">
   <% if (comments.length === 0) { %>
     <div class="comment-list-text no-comments">
-      No comments
+      没有注释
     </div>
   <% } %>
   <ul class="comments-list">
@@ -27,7 +27,7 @@
               <form class="delete-comment">
                 <button class="note-show-button comment"
                 data-comment-id="<%- comment.get("id")%>">
-                  DELETE&nbsp;
+                  删除&nbsp;
                   <i class="fa fa-trash-o"></i>
                 </button>
               </form>
@@ -40,7 +40,7 @@
   <div class="new-comment">
     <div class="comment-button new">
       <i class="fa fa-plus"></i>&nbsp;
-      New Comment
+      新建注释
     </div>
   </div>
 </div>

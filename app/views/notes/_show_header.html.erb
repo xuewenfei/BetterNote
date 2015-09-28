@@ -26,7 +26,7 @@
   </div>
   <div class="note-show-header-right">
     <div class="info-text">
-      INFO&nbsp;
+      信息&nbsp;
       <i class="fa fa-info-circle"></i>
     </div>
     <%= render partial: "notes/info", locals: { note: note }%>
@@ -36,10 +36,10 @@
   <div class="note-show-header-left">
     <ul class="dates">
       <li>
-        Created: <%= note.created_at.strftime("%b %d, %Y")  %>
+        创建: <%= note.created_at.strftime("%b %d, %Y")  %>
       </li>
       <li>
-        Modified: <%= note.updated_at.strftime("%b %d, %Y")  %>
+        修改: <%= note.updated_at.strftime("%b %d, %Y")  %>
       </li>
     </ul>
   </div>
@@ -50,7 +50,7 @@
         <%= auth_token %>
         <input type="hidden" name="_method" value="delete">
         <button class="note-show-button">
-          REMOVE LIKE
+          删除喜欢
           <i class="fa fa-thumbs-o-down"></i>
         </button>
       </form>
@@ -58,21 +58,21 @@
     <form action="<%= note_likes_url(note) %>" method="post">
       <%= auth_token %>
       <button class="note-show-button">
-        LIKE
+        喜欢
         <i class="fa fa-thumbs-o-up"></i>
       </button>
     </form>
     <% end %>
     <% if current_user == note.author %>
       <a href="<%= request.url + "&edit=true" %>" class="note-show-button">
-        EDIT
+        编辑
         <i class="fa fa-file-text-o"></i>
       </a>
       <form action="<%= note_url(note) %>" method="post">
         <%= auth_token %>
         <input type="hidden" name="_method" value="delete">
         <button class="note-show-button">
-          DELETE
+          删除
           <i class="fa fa-trash-o"></i>
         </button>
       </form>

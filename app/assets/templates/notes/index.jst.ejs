@@ -1,7 +1,7 @@
 <div class="notes-list-header">
   <% if (type === "all") { %>
     <i class="fa fa-book"></i>
-    All Notes
+    所有笔记
   <% } else if (type === "notebook") { %>
     <i class="fa fa-book"></i>
     <%= model.get("name") %>
@@ -15,36 +15,36 @@
 <div class="notes-list-footer group"f>
   <div class="notes-list-footer-left dropdown-parent">
     <div class="notes-list-footer-left-text">
-      View Options
+      视图选项
       <i class="fa fa-caret-up"></i>
     </div>
     <ul class="options-dropdown hidden">
       <li class="options-dropdown-header">
-        Sort By
+        排序
       </li>
       <li class="sort-option" data-sort-field="created_at"
                               data-sort-toggle="-1">
-        Date Created (newest first)
+        创建日期 (newest first)
       </li>
       <li class="sort-option" data-sort-field="created_at"
                               data-sort-toggle="1">
-        Date Created (oldest first)
+        创建日期 (oldest first)
       </li>
       <li class="sort-option" data-sort-field="updated_at"
                               data-sort-toggle="-1">
-        Date Updated (newest first)
+        更新日期 (newest first)
       </li>
       <li class="sort-option" data-sort-field="updated_at"
                               data-sort-toggle="1">
-        Date Updated (oldest first)
+        更新日期 (oldest first)
       </li>
       <li class="sort-option" data-sort-field="title"
                               data-sort-toggle="1">
-        Title (descending)
+        标题 (降序)
       </li>
       <li class="sort-option" data-sort-field="title"
                               data-sort-toggle="-1">
-        Title (ascending)
+        标题 (升序)
       </li>
     </ul>
   </div>

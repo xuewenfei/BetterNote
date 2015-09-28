@@ -2,7 +2,7 @@
   <div class="sidebar-header group">
     <div class="sidebar-header-left">
       <i class="fa fa-caret-down"></i>&nbsp;
-      Notebooks
+      笔记本
     </div>
     <div class="sidebar-header-right dropdown-parent">
       <i class="fa fa-toggle-down dropdown"></i>
@@ -11,7 +11,7 @@
           <div class="show-modal"
               data-action="create-notebook"
               data-item-id="nil">
-            New Notebook...
+            新建笔记本...
           </div>
         </li>
       </ul>
@@ -23,7 +23,7 @@
       <div class="sidebar-entry-left notebook">
         <a href="/#/notes" class="group">
             <i class='fa fa-book fa-lg'></i>&nbsp;
-            All Notes (<%= notes.length %>)
+            所有笔记 (<%= notes.length %>)
         </a>
       </div>
     </li>
@@ -34,7 +34,7 @@
   <div class="sidebar-header group">
     <div class="sidebar-header-left">
       <i class="fa fa-caret-down"></i>&nbsp;
-      Tags
+      标签
     </div>
     <div class="sidebar-header-right dropdown-parent">
       <i class="fa fa-toggle-down dropdown"></i>
@@ -43,7 +43,7 @@
           <div class="show-modal"
               data-action="create-tag"
               data-item-id="nil">
-            New Tag...
+            新建标签...
           </div>
         </li>
       </ul>
@@ -63,14 +63,14 @@
               <div class="show-modal"
                   data-action="edit-tag"
                   data-item-id="<%= tag.escape("id") %>">
-                Edit Tag
+                编辑标签
               </div>
             </li>
             <li>
               <div class="show-modal"
                   data-action="delete-tag"
                   data-item-id="<%= tag.escape("id") %>">
-                Delete Tag
+                删除标签
               </div>
             </li>
           </ul>
@@ -84,7 +84,7 @@
       <div class="sidebar-entry-left tag show-modal" data-action="corgi">
           <div class="tag-name">
             <i class='fa fa-tag fa-lg'></i>&nbsp;
-            Corgi?
+            狗仔?
           </div>
       </div>
     </li>
@@ -95,7 +95,7 @@
   <div class="sidebar-header group">
     <div class="sidebar-header-left">
       <i class="fa fa-caret-down"></i>&nbsp;
-      Friends
+      好友
     </div>
     <div class="sidebar-header-right">
       <i class="fa fa-toggle-down dropdown"></i>
@@ -117,7 +117,7 @@
               <div class="show-modal"
                   data-action="unfriend"
                   data-item-id="<%= friend.escape("id") %>">
-                Unfriend
+                取消好友
               </div>
             </li>
           </ul>

@@ -51,7 +51,7 @@ Friendship.create({
 friend1.notes.create({
   title: "Albus Dumbledore's First Love",
   body: "Albus Dumbledore was having a decidedly unpleasant day. Ariana had blown up the kitchen and Aberforth was being unhelpful. Funnily enough this was not what had made the day so unpleasant. These occurrences were actually not abnormal. It was that infernal postcard from Doge. A lengthy letter detailing exactly all the things Albus was missing: Egypt, Rome, China. He should be there with his best friend exploring the world and extending his powers. Instead he was here playing house.
-  
+
 Albus sighed and sent Aberforth out, before proceeding in rebuilding the kitchen. Ariana fortunately was upstairs writing. She loved to write, silly poems and heart breaking stories. It was one of Kendra’s better ideas, to teach the girl to write. It helped her channel some of her inner torment onto the pages. Not that it had saved Kendra of course, but it was still a good idea. It took Albus the better part of an hour to assemble the kitchen properly. When he was finished he had meant to write an article for Potions Periodical, but he wanted some fresh air.
 
 He dusted himself off and stepped into the front garden. He knew he couldn’t abandon Ariana alone in the house so he just sat on the front steps.
@@ -72,11 +72,11 @@ friend1.notes.last.comments.create({
 
 friend1.notes.create({
   title: "The Slytherin Challenge",
-  body: "Every Slytherin Head of House who ever was had been a Slytherin student. There were no exceptions to this nor would there ever be. And it was for one reason and only one reason, a most important reason that this was. Only the Head of House knew the Slytherin Challenge. 
-  
-Ever since the Slytherin house had been in existence there had been the secret competition. The competition took place every year during the last full moon before school let out and all the seventh years graduated. It was held at midnight in the deepest, darkest dungeon of Hogwarts and only seventh year students were allowed to compete. They had to compete, whether they wanted to or not, for every Slytherin student who had ever lived had competed. 
+  body: "Every Slytherin Head of House who ever was had been a Slytherin student. There were no exceptions to this nor would there ever be. And it was for one reason and only one reason, a most important reason that this was. Only the Head of House knew the Slytherin Challenge.
 
-All of the lower years were sent to bed by the Student Head of House at a quarter to twelve. The seventh years waited in the common room, fully dressed with their wands in their pockets, until the stroke of midnight. The Head of House opened the portrait on the twelfth stroke and led the group down. The hallways were without candles or torches and were eerily silent as the students followed their trusted professor. As they traveled deeper and deeper into the castle the halls became cold and the students’ breath became visible. The students kept in a tight group, trying to hide their fear from one another. Not one among their solemn group had any clues of what was to come, for every alumni who had ever partook in this event was sworn to secrecy. 
+Ever since the Slytherin house had been in existence there had been the secret competition. The competition took place every year during the last full moon before school let out and all the seventh years graduated. It was held at midnight in the deepest, darkest dungeon of Hogwarts and only seventh year students were allowed to compete. They had to compete, whether they wanted to or not, for every Slytherin student who had ever lived had competed.
+
+All of the lower years were sent to bed by the Student Head of House at a quarter to twelve. The seventh years waited in the common room, fully dressed with their wands in their pockets, until the stroke of midnight. The Head of House opened the portrait on the twelfth stroke and led the group down. The hallways were without candles or torches and were eerily silent as the students followed their trusted professor. As they traveled deeper and deeper into the castle the halls became cold and the students’ breath became visible. The students kept in a tight group, trying to hide their fear from one another. Not one among their solemn group had any clues of what was to come, for every alumni who had ever partook in this event was sworn to secrecy.
 
 At last they stopped at the very end of the hall, the ground had ceased to be covered with bricks and was now no more than dirt. The doorway in front of them was flanked on either side by flaming torches. The door was large and strong. It was made entirely of steel and bore the Slytherin coat of arms; it had no locks or handles and would never budge without the key. The key was a sacred oath passed down from Salazar himself and had to be spoken in the strange tongue of the snakes, only then would the door slowly open, silent as a ghost.",
   notebook_id: hp_notebook.id
@@ -89,11 +89,11 @@ friend1.notes.last.likes.create({
 friend1.notes.create({
   title: "The Seakers",
   body: "Cho sat at the far end of the Ravenclaw table in the Great Hall. This was as close to isolation as she could get. The din of a hundred different conversations echoed from the ancient stones that made up Castle Hogwarts. Several different strains of laughter could be made out coming from various directions. It was a happy cheerful noise. It was completely inappropriate to Cho’s mood.
-  
+
 'Are you okay, Cho?' asked a concerned voice.
-  
+
 Cho did not even turn to see who had asked, but simply nodded. She was so tired of people asking her that question. She was okay. She wasn’t good or great. She wasn’t bad or terrible. She was okay, and all things considered, that was more than enough. She really wanted to move on from all of this, but that simply would not be possible, until people stopped asking her whether or not she was okay.
-  
+
 She gazed around the Great Hall at her feasting schoolmates. They were joking, and laughing, and bringing their friends up to date on the experiences of summer. One might think, from their expressions, that absolutely nothing was wrong in the world. One might think that the previous year had ended just as every other year had ended. One might think that Cedric Diggory had not died. She did not have the luxury of that illusion. Every single ‘Are you okay?’ was just another reminder of that.",
   notebook_id: hp_notebook.id
 })
@@ -583,7 +583,7 @@ demo.notes.create({
   title: "Favorite Quotes",
   body: "'If you want to know what a man's like, take a good look at how he treats his inferiors, not his equals.'
 - J.K. Rowling, Harry Potter and the Goblet of Fire
-  
+
 'I love deadlines. I love the whooshing noise they make as they go by.'
 - Douglas Adams, The Salmon of Doubt
 
@@ -595,9 +595,9 @@ demo.notes.create({
 
 'You can never be overdressed or overeducated.'
 - Oscar Wilde
-  
-'Do I contradict myself? 
-Very well then I contradict myself, 
+
+'Do I contradict myself?
+Very well then I contradict myself,
 (I am large, I contain multitudes.)'
 - Walt Whitman, Song of Myself
 
@@ -808,7 +808,7 @@ demo.notes.last.note_tags.create({
 demo.notes.create({
   title: "Beautiful e.e. cummings poem",
   body: "somewhere i have never travelled,gladly beyond
-  
+
 somewhere i have never travelled,gladly beyond
 any experience,your eyes have their silence:
 in your most frail gesture are things which enclose me,
@@ -1199,7 +1199,7 @@ Notes
 -- Change a note's notebook by clicking on the notebook dropdown under the 'New Note' button
 -- Add a tag to a note by clicking on the '+ Tag' button
 -- Like or delete a note by clicking on the like and delete buttons at the top right of the screen
--- Comment on a note by clicking 
+-- Comment on a note by clicking
 
 Notebook/Tags
 -- Add a notebook by clicking on the button to the right of the 'Notebooks' subhead in the sidebar
@@ -1207,7 +1207,7 @@ Notebook/Tags
 -- Edit (or delete) a notebook or tag by clicking on the icon that appears when you hover on a notebook/tag item in the sidebar
 
 Note Collections
--- Sort the selected notes by clicking on the 'View Options' menu at the bottom of the note preview section
+-- Sort the selected notes by clicking on the '视图选项' menu at the bottom of the note preview section
 -- Filter notes by search term using the search bar
 -- Filter notes by tag by clicking on the tags in the sidebar
 -- View friends' notes by clicking on the friend items in the sidebar",

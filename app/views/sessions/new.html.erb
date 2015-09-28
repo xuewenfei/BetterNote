@@ -2,9 +2,9 @@
   <%= auth_token %>
 
   <div class="heading group">
-    <h2>Sign In</h2>
+    <h2>登录</h2>
     <div class="new-account">
-      or <a href="<%= new_user_url %>">Create an Account</a>
+      or <a href="<%= new_user_url %>">创建账号</a>
     </div>
   </div>
 
@@ -15,18 +15,18 @@
   <% end %>
 
   <div class="input">
-    <label for="user-email">Email</label>
+    <label for="user-email">邮箱</label>
     <input type="text" id="user-email" name="user[email]"
       value="<%= @user.email %>">
   </div>
 
   <div class="input">
-    <label for="user-password">Password</label>
+    <label for="user-password">密码</label>
     <input type="password" id="user-password" name="user[password]"
       value="<%= @user.password %>">
   </div>
 
   <div class="submit sign-in">
-    <input type="submit" value="Sign In">
+    <input type="submit" value="登录">
   </div>
 </form>

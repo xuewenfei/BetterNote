@@ -1,30 +1,30 @@
 <table class="">
   <tr>
-    <td class="note-info-field">Title:</td>
+    <td class="note-info-field">标题:</td>
     <td class="note-info-data"><%= note.escape("title") %></td>
   </tr>
   <tr>
-    <td class="note-info-field">Author:</td>
+    <td class="note-info-field">作者:</td>
     <td class="note-info-data"><%= note.author.escape("username") %></td>
   </tr>
   <tr>
-    <td class="note-info-field">Created:</td>
+    <td class="note-info-field">创建于:</td>
     <td class="note-info-data">
       <%= moment(note.escape("created_at")).format('MMM D, YYYY') %>
     </td>
   </tr>
   <tr>
-    <td class="note-info-field">Updated:</td>
+    <td class="note-info-field">更新于:</td>
     <td class="note-info-data">
       <%= moment(note.escape("updated_at")).format('MMM D, YYYY') %>
     </td>
   </tr>
   <tr>
-    <td class="note-info-field">Notebook:</td>
+    <td class="note-info-field">笔记本:</td>
     <td class="note-info-data"><%= (note.friendNote) ? note.escape("notebook") : note.notebook.escape("name") %></td>
   </tr>
   <tr>
-    <td class="note-info-field">Tags:</td>
+    <td class="note-info-field">标签集:</td>
     <td class="note-info-data">
       <% if (note.noteTags.length > 0) { %>
         <%= note.noteTags.map(function(noteTag) {
@@ -36,7 +36,7 @@
     </td>
   </tr>
   <tr>
-    <td class="note-info-field">Likes:</td>
+    <td class="note-info-field">喜欢:</td>
     <td class="note-info-data">
       <%= note.likes.length %>
     </td>

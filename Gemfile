@@ -31,6 +31,10 @@ group :doc do
 end
 
 group :development do
+  gem 'pry-rails'
+  gem 'pry-remote'
+  gem 'pry-nav'
+
   gem 'binding_of_caller'
   gem 'better_errors'
 

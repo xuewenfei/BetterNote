@@ -17,3 +17,9 @@
 
 /.DS_Store
 /.database.yml
+
+# Ignore all swap files
+*.DS_Store
+.*.swp
+.*.swo
+*~

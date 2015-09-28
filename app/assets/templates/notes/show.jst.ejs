@@ -27,7 +27,7 @@
   </div>
   <div class="note-show-header-right top dropdown-parent">
     <div class="info-text">
-      INFO&nbsp;
+      信息&nbsp;
       <i class="fa fa-info-circle"></i>
     </div>
   </div>
@@ -36,16 +36,16 @@
   <div class="note-show-header-left">
     <ul class="dates">
       <li>
-        Created: <%= moment(note.escape("created_at")).format('MMM D, YYYY') %>
+        创建: <%= moment(note.escape("created_at")).format('MMM D, YYYY') %>
       </li>
       <li>
-        Modified: <%= moment(note.escape("updated_at")).format('MMM D, YYYY') %>
+        更新: <%= moment(note.escape("updated_at")).format('MMM D, YYYY') %>
       </li>
     </ul>
   </div>
   <div class="note-show-header-right bottom">
     <div class="note-show-button delete-note">
-      DELETE
+      删除
       <i class="fa fa-trash-o"></i>
     </div>
   </div>
